@@ -19,7 +19,19 @@ function whileLoop(n) {
   }
   
 function doWhileLoop(array){
-function maybeTrue() {
+  function maybeTrue() {
   return Math.random() >= 0.5;
+  }
+  var l = array[1];
+  var newArr = [];
+  // console.log(l);
+  console.log(newArr);
+
+  do {
+    console.log(l);
+    l=l-1;
+  } while (!!l && !!maybeTrue());
+  return newArr;
 }
-d
+
+doWhileLoop(array);
