@@ -1,4 +1,4 @@
-function string(num) {
+function forloop(array) {
 for (let i = 0; i < string.length; i++);
-console.log(`I am ${num[i]} strange loops.`)
+console.log(`I am ${array[i]} strange loops.`)
 }
