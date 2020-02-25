@@ -10,12 +10,13 @@ function forLoop(array) {
 }
 
 function whileLoop(n) {
-  let countDown = n;
-  while (countDown > 0) {
-    console.log(--countDown);
+  let countdown = n;
+
+    while (countdown > 0) {
+      console.log(--countdown)
+    }
+    return "done";
   }
-  return 'done';
-}
 
 function doWhileLoop(array) {
   function maybeTrue() {
