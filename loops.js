@@ -32,4 +32,4 @@ function doWhileLoop(num) {
   while (incrementVariable() < 11);
 }
 
-return doWhileLoop(num);
+return doWhileLoop(10);
