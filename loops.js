@@ -9,8 +9,8 @@ function forLoop(array) {
   return array;
 }
 
-function whileLoop() {
-  let countdown = Number;
+function whileLoop(n) {
+  let countdown = n;
   while (coundown >= 0) {
     console.log(--countdown);
   }
