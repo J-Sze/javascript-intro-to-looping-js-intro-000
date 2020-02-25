@@ -18,31 +18,3 @@ function whileLoop(n) {
     return "done";
   }
   
-function makeArray() {
-  const array = []
-  const t = Math.floor(Math.random() * 10)
-
-  for (let i = 0; i < t; i++) {
-    array.push("I am a strange loop.")
-  }
-
-  return [array, t]
-}
-
-function doWhileLoop(array){
-  function maybeTrue() {
-  return Math.random() >= 0.5;
-  }
-  var l = array[1];
-  var newArr = [];
-  // console.log(l);
-  console.log(newArr);
-
-  do {
-    console.log(l);
-    l=l-1;
-  } while (!!l && !!maybeTrue());
-  return newArr;
-}
-
-doWhileLoop(array);
