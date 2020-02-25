@@ -19,13 +19,20 @@ function whileLoop(n) {
   }
   
   
-  function doWhileLoop(num) {
-  let i = 0;
+function doWhileLoop(num) {
 
-  do {
-    console.log(i, "I run once regardless. ");
+  var i = 0;
+  function incrementVariable() {
+    i++
+    return i;
   }
-  while (i++ < num);
+  
+  do {
+    if (i < num) {
+      console.log(i, "I run once regardless.");
+    }
+  }
+  while (incrementVariable() < num);
 
   console.log("Final value of i:", i);
 }
