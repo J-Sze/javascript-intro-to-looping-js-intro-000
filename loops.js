@@ -28,3 +28,21 @@ function makeArray() {
 
   return [array, t]
 }
+
+function doWhileLoop(array){
+  function maybeTrue() {
+  return Math.random() >= 0.5;
+  }
+  var l = array[1];
+  var newArr = [];
+  // console.log(l);
+  console.log(newArr);
+
+  do {
+    console.log(l);
+    l=l-1;
+  } while (!!l && !!maybeTrue());
+  return newArr;
+}
+
+doWhileLoop(array);
