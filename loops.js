@@ -29,4 +29,4 @@ function doWhileLoop(num) {
   console.log("Final value of i:", i);
 }
 
-doWhileLoop(10);
+doWhileLoop(9);
